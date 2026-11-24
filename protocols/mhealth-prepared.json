@@ -1,0 +1,496 @@
+{
+  "dataset": "mhealth",
+  "protocol": {
+    "W": 256,
+    "channels_zero_based": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      14,
+      15,
+      16
+    ],
+    "label_column": 23,
+    "classes_original": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "train": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "val": [
+      7
+    ],
+    "test": [
+      8,
+      9,
+      10
+    ],
+    "subjects": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "source_sha256": "16ad0ce709f3f00df18f348610d15bce0884b79e2143f57f446493673f02b8e0",
+  "records": [
+    {
+      "subject": 1,
+      "source_relative": "MHEALTHDATASET/mHealth_subject1.log",
+      "samples": 161280,
+      "split": "train",
+      "hop": 128,
+      "windows": 274,
+      "discarded_endpoint_zero": 985,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 24,
+      "class_distribution": {
+        "1": 24,
+        "2": 24,
+        "3": 24,
+        "4": 24,
+        "5": 24,
+        "6": 24,
+        "7": 24,
+        "8": 26,
+        "9": 24,
+        "10": 24,
+        "11": 24,
+        "12": 8
+      },
+      "prepared": "1-mHealth_subject1.npz"
+    },
+    {
+      "subject": 10,
+      "source_relative": "MHEALTHDATASET/mHealth_subject10.log",
+      "samples": 98304,
+      "split": "test",
+      "hop": 64,
+      "windows": 526,
+      "discarded_endpoint_zero": 1007,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 24,
+      "class_distribution": {
+        "1": 48,
+        "2": 48,
+        "3": 48,
+        "4": 48,
+        "5": 48,
+        "6": 38,
+        "7": 43,
+        "8": 45,
+        "9": 48,
+        "10": 48,
+        "11": 48,
+        "12": 16
+      },
+      "prepared": "10-mHealth_subject10.npz"
+    },
+    {
+      "subject": 2,
+      "source_relative": "MHEALTHDATASET/mHealth_subject2.log",
+      "samples": 130561,
+      "split": "train",
+      "hop": 128,
+      "windows": 276,
+      "discarded_endpoint_zero": 743,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 24,
+      "class_distribution": {
+        "1": 24,
+        "2": 24,
+        "3": 24,
+        "4": 24,
+        "5": 24,
+        "6": 24,
+        "7": 26,
+        "8": 26,
+        "9": 24,
+        "10": 24,
+        "11": 24,
+        "12": 8
+      },
+      "prepared": "2-mHealth_subject2.npz"
+    },
+    {
+      "subject": 3,
+      "source_relative": "MHEALTHDATASET/mHealth_subject3.log",
+      "samples": 122112,
+      "split": "train",
+      "hop": 128,
+      "windows": 277,
+      "discarded_endpoint_zero": 676,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 24,
+      "class_distribution": {
+        "1": 24,
+        "2": 24,
+        "3": 24,
+        "4": 24,
+        "5": 24,
+        "6": 26,
+        "7": 26,
+        "8": 25,
+        "9": 24,
+        "10": 24,
+        "11": 24,
+        "12": 8
+      },
+      "prepared": "3-mHealth_subject3.npz"
+    },
+    {
+      "subject": 4,
+      "source_relative": "MHEALTHDATASET/mHealth_subject4.log",
+      "samples": 116736,
+      "split": "train",
+      "hop": 128,
+      "windows": 277,
+      "discarded_endpoint_zero": 634,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 24,
+      "class_distribution": {
+        "1": 24,
+        "2": 24,
+        "3": 24,
+        "4": 24,
+        "5": 24,
+        "6": 26,
+        "7": 26,
+        "8": 25,
+        "9": 24,
+        "10": 24,
+        "11": 24,
+        "12": 8
+      },
+      "prepared": "4-mHealth_subject4.npz"
+    },
+    {
+      "subject": 5,
+      "source_relative": "MHEALTHDATASET/mHealth_subject5.log",
+      "samples": 119808,
+      "split": "train",
+      "hop": 128,
+      "windows": 264,
+      "discarded_endpoint_zero": 671,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 24,
+      "class_distribution": {
+        "1": 24,
+        "2": 24,
+        "3": 24,
+        "4": 24,
+        "5": 24,
+        "6": 21,
+        "7": 22,
+        "8": 21,
+        "9": 24,
+        "10": 24,
+        "11": 24,
+        "12": 8
+      },
+      "prepared": "5-mHealth_subject5.npz"
+    },
+    {
+      "subject": 6,
+      "source_relative": "MHEALTHDATASET/mHealth_subject6.log",
+      "samples": 98304,
+      "split": "train",
+      "hop": 128,
+      "windows": 252,
+      "discarded_endpoint_zero": 515,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 24,
+      "class_distribution": {
+        "1": 24,
+        "2": 24,
+        "3": 24,
+        "4": 24,
+        "5": 24,
+        "6": 18,
+        "7": 16,
+        "8": 18,
+        "9": 24,
+        "10": 24,
+        "11": 24,
+        "12": 8
+      },
+      "prepared": "6-mHealth_subject6.npz"
+    },
+    {
+      "subject": 7,
+      "source_relative": "MHEALTHDATASET/mHealth_subject7.log",
+      "samples": 104448,
+      "split": "val",
+      "hop": 128,
+      "windows": 268,
+      "discarded_endpoint_zero": 547,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 24,
+      "class_distribution": {
+        "1": 24,
+        "2": 24,
+        "3": 24,
+        "4": 24,
+        "5": 24,
+        "6": 24,
+        "7": 22,
+        "8": 22,
+        "9": 24,
+        "10": 24,
+        "11": 24,
+        "12": 8
+      },
+      "prepared": "7-mHealth_subject7.npz"
+    },
+    {
+      "subject": 8,
+      "source_relative": "MHEALTHDATASET/mHealth_subject8.log",
+      "samples": 129024,
+      "split": "test",
+      "hop": 64,
+      "windows": 520,
+      "discarded_endpoint_zero": 1493,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 24,
+      "class_distribution": {
+        "1": 48,
+        "2": 48,
+        "3": 48,
+        "4": 48,
+        "5": 48,
+        "6": 33,
+        "7": 47,
+        "8": 40,
+        "9": 48,
+        "10": 48,
+        "11": 48,
+        "12": 16
+      },
+      "prepared": "8-mHealth_subject8.npz"
+    },
+    {
+      "subject": 9,
+      "source_relative": "MHEALTHDATASET/mHealth_subject9.log",
+      "samples": 135168,
+      "split": "test",
+      "hop": 64,
+      "windows": 534,
+      "discarded_endpoint_zero": 1575,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 24,
+      "class_distribution": {
+        "1": 48,
+        "2": 48,
+        "3": 48,
+        "4": 48,
+        "5": 48,
+        "6": 44,
+        "7": 44,
+        "8": 46,
+        "9": 48,
+        "10": 48,
+        "11": 48,
+        "12": 16
+      },
+      "prepared": "9-mHealth_subject9.npz"
+    }
+  ],
+  "splits": {
+    "train": {
+      "records": 6,
+      "windows": 1620,
+      "subjects": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "class_distribution": {
+        "1": 144,
+        "2": 144,
+        "3": 144,
+        "4": 144,
+        "5": 144,
+        "6": 139,
+        "7": 140,
+        "8": 141,
+        "9": 144,
+        "10": 144,
+        "11": 144,
+        "12": 48
+      }
+    },
+    "val": {
+      "records": 1,
+      "windows": 268,
+      "subjects": [
+        7
+      ],
+      "class_distribution": {
+        "1": 24,
+        "2": 24,
+        "3": 24,
+        "4": 24,
+        "5": 24,
+        "6": 24,
+        "7": 22,
+        "8": 22,
+        "9": 24,
+        "10": 24,
+        "11": 24,
+        "12": 8
+      }
+    },
+    "test": {
+      "records": 3,
+      "windows": 1580,
+      "subjects": [
+        8,
+        9,
+        10
+      ],
+      "class_distribution": {
+        "1": 144,
+        "2": 144,
+        "3": 144,
+        "4": 144,
+        "5": 144,
+        "6": 115,
+        "7": 134,
+        "8": 131,
+        "9": 144,
+        "10": 144,
+        "11": 144,
+        "12": 48
+      }
+    }
+  },
+  "preprocessing": "Selected channels only; NaN per-channel linear interpolation within each file, nearest endpoints; all-zero-labelled samples retained as context; discard only zero-labelled window endpoints; no scaling or normalization"
+}

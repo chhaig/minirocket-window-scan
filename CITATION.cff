@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript; publication metadata will be added after acceptance."
+type: software
+title: "Sliding-Window MiniRocket Without Crop Boundaries"
+authors:
+  - family-names: Chen
+    given-names: Haiguang
+  - family-names: Li
+    given-names: Shuang
+version: 0.1.0
+date-released: 2026-11-24
+url: "https://github.com/chhaig/minirocket-window-scan"

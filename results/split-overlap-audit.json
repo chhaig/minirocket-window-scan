@@ -1,0 +1,287 @@
+{
+  "pamap2": {
+    "files": [
+      {
+        "subject": 101,
+        "file": "101-subject101.npz",
+        "split": "train",
+        "signal_sha256": "dbf94f34fa6fba43f21d78d88b3e9394e03f633daa23a16dc8c2afc2e2b2568f"
+      },
+      {
+        "subject": 102,
+        "file": "102-subject102.npz",
+        "split": "train",
+        "signal_sha256": "9bcb5e06f7bb22d49787b555ad8c5030eebc9c9a8a0e14a9c98998f1d1863d55"
+      },
+      {
+        "subject": 103,
+        "file": "103-subject103.npz",
+        "split": "train",
+        "signal_sha256": "f4748d6fe3af036b3e3f2674b54ff9227a686247b66a818fd0232fdbd2f140df"
+      },
+      {
+        "subject": 104,
+        "file": "104-subject104.npz",
+        "split": "train",
+        "signal_sha256": "b967cee02e18e70772265fb418cfac918f90c01a238811ec2b544e5c0c0525a2"
+      },
+      {
+        "subject": 105,
+        "file": "105-subject105.npz",
+        "split": "test",
+        "signal_sha256": "9ccc68cfc0a657a0f76ab5db5b96398de9cf5cc7fc353c5eb4c91d0c02e1e77e"
+      },
+      {
+        "subject": 106,
+        "file": "106-subject106.npz",
+        "split": "test",
+        "signal_sha256": "88fbc91cc942c1d14f90c010e31cd49eccb128b3e720c8e6c6d1947b0eab0314"
+      },
+      {
+        "subject": 107,
+        "file": "107-subject107.npz",
+        "split": "val",
+        "signal_sha256": "a067478c62e56c397c6daf996a3018260755027cf65316814f81760a831c293a"
+      },
+      {
+        "subject": 108,
+        "file": "108-subject108.npz",
+        "split": "train",
+        "signal_sha256": "e850e71dd758a19aaeab6fb5cc080784bee860501dfeed83672fb985635fc560"
+      }
+    ],
+    "cross_split_exact_float32_window_overlap": {
+      "train-val": {
+        "shared_unique_windows": 0,
+        "windows_in_first_split": 0,
+        "windows_in_second_split": 0,
+        "examples": []
+      },
+      "train-test": {
+        "shared_unique_windows": 0,
+        "windows_in_first_split": 0,
+        "windows_in_second_split": 0,
+        "examples": []
+      },
+      "val-test": {
+        "shared_unique_windows": 0,
+        "windows_in_first_split": 0,
+        "windows_in_second_split": 0,
+        "examples": []
+      }
+    },
+    "note": "Audit only; all windows retained under the frozen protocol. SHA-256 hashes of all selected 9-channel window samples, not labels."
+  },
+  "mhealth": {
+    "files": [
+      {
+        "subject": 1,
+        "file": "1-mHealth_subject1.npz",
+        "split": "train",
+        "signal_sha256": "ecbd794af112803d5f02140bd260905a03ace994de36b127e502b315e65390b0"
+      },
+      {
+        "subject": 10,
+        "file": "10-mHealth_subject10.npz",
+        "split": "test",
+        "signal_sha256": "b2535a1e9253eb23b3a8c5a72f3ad07e23cea213f00cc96c5f69868e0132e8cf"
+      },
+      {
+        "subject": 2,
+        "file": "2-mHealth_subject2.npz",
+        "split": "train",
+        "signal_sha256": "f9c121019cec2a35c818665c402a105177467de66639d5ff5efdba2adb566052"
+      },
+      {
+        "subject": 3,
+        "file": "3-mHealth_subject3.npz",
+        "split": "train",
+        "signal_sha256": "5f046bd2c6d6478ff5b72bc8f84d568e5cb7c52a7ba0b5f6b99bd917535b71e7"
+      },
+      {
+        "subject": 4,
+        "file": "4-mHealth_subject4.npz",
+        "split": "train",
+        "signal_sha256": "c0fa2cda11748824e6f8ff06414e7a3e4b11fb1374dbcd4c20db69a5aa146816"
+      },
+      {
+        "subject": 5,
+        "file": "5-mHealth_subject5.npz",
+        "split": "train",
+        "signal_sha256": "637d571194cf68974400250f98d43db0cf605d6127e61e8f58b891d5c969f540"
+      },
+      {
+        "subject": 6,
+        "file": "6-mHealth_subject6.npz",
+        "split": "train",
+        "signal_sha256": "eb537c3b606ea6bc4e28624c829bc750f15906bbe7bc947285fd252ce7d60c18"
+      },
+      {
+        "subject": 7,
+        "file": "7-mHealth_subject7.npz",
+        "split": "val",
+        "signal_sha256": "ab755d11c94365545a84b27cf9203f76a1be97991dfdf90f5858b3c3b70d6864"
+      },
+      {
+        "subject": 8,
+        "file": "8-mHealth_subject8.npz",
+        "split": "test",
+        "signal_sha256": "2102b9fe947c46183c731000452403a949dcc9bdf85f634022522c5eb724066f"
+      },
+      {
+        "subject": 9,
+        "file": "9-mHealth_subject9.npz",
+        "split": "test",
+        "signal_sha256": "b1b99227b76f7c1a9c283f48b3619ad479cad3b3e24d80c31c35e26fa0be6a45"
+      }
+    ],
+    "cross_split_exact_float32_window_overlap": {
+      "train-val": {
+        "shared_unique_windows": 0,
+        "windows_in_first_split": 0,
+        "windows_in_second_split": 0,
+        "examples": []
+      },
+      "train-test": {
+        "shared_unique_windows": 0,
+        "windows_in_first_split": 0,
+        "windows_in_second_split": 0,
+        "examples": []
+      },
+      "val-test": {
+        "shared_unique_windows": 0,
+        "windows_in_first_split": 0,
+        "windows_in_second_split": 0,
+        "examples": []
+      }
+    },
+    "note": "Audit only; all windows retained under the frozen protocol. SHA-256 hashes of all selected 9-channel window samples, not labels."
+  },
+  "daphnet": {
+    "files": [
+      {
+        "subject": 1,
+        "file": "1-S01R01.npz",
+        "split": "train",
+        "signal_sha256": "a24f3ed686fc5f45ca15aa19a49533fca6e46cbc1eef08ea0c056dced3381b39"
+      },
+      {
+        "subject": 1,
+        "file": "1-S01R02.npz",
+        "split": "train",
+        "signal_sha256": "d7379e88df56109e35d2b7a0b745a9daed94a33faf9e7ae50865009f0317167d"
+      },
+      {
+        "subject": 2,
+        "file": "2-S02R01.npz",
+        "split": "train",
+        "signal_sha256": "dfa9602a9d7de7d35a776a3a139504754f863b436d48e597367f5abfe8ad76a7"
+      },
+      {
+        "subject": 2,
+        "file": "2-S02R02.npz",
+        "split": "train",
+        "signal_sha256": "e80e8bbf8a45c02e594d9913fb6bec115490543334cc5ae74ec6386f14400e38"
+      },
+      {
+        "subject": 3,
+        "file": "3-S03R01.npz",
+        "split": "train",
+        "signal_sha256": "49746d4833d7f2da68d0439faef4950e922fe25f69fa19deb73e95132e59aeb6"
+      },
+      {
+        "subject": 3,
+        "file": "3-S03R02.npz",
+        "split": "train",
+        "signal_sha256": "0adbd79342355a96be0e4956671cabc0dd4ff232749225b9dff908cde241464d"
+      },
+      {
+        "subject": 3,
+        "file": "3-S03R03.npz",
+        "split": "train",
+        "signal_sha256": "07762e59afd693f09140aa08c043b5558466f16b0c9d01317f879c4e2528296c"
+      },
+      {
+        "subject": 4,
+        "file": "4-S04R01.npz",
+        "split": "train",
+        "signal_sha256": "26c23f2e495af6a7fbd11c6a752900b9098d3ea5557c6ef0d8d094606b7313d2"
+      },
+      {
+        "subject": 5,
+        "file": "5-S05R01.npz",
+        "split": "train",
+        "signal_sha256": "208c808114c1db4aefcdb79b827cc75ae37b998ef5dcbeb3d12f00514ad4b5aa"
+      },
+      {
+        "subject": 5,
+        "file": "5-S05R02.npz",
+        "split": "train",
+        "signal_sha256": "4f14f548467637ca82321f54486b0245c6c7e66c40f5d7e531a06c409ae8c056"
+      },
+      {
+        "subject": 6,
+        "file": "6-S06R01.npz",
+        "split": "train",
+        "signal_sha256": "01fe6b90f5448efeecb94fae67b5b9258b328de5a49daefc997dd5c3248d1226"
+      },
+      {
+        "subject": 6,
+        "file": "6-S06R02.npz",
+        "split": "train",
+        "signal_sha256": "a064351fcdff12fbe5cd1a61d27da27467d2ac5812b52cc995f787e16b5524fe"
+      },
+      {
+        "subject": 7,
+        "file": "7-S07R01.npz",
+        "split": "val",
+        "signal_sha256": "05220f69d60b3b386b6eda26994b9af97d6b31793725b1fbb8469920c3281a8e"
+      },
+      {
+        "subject": 7,
+        "file": "7-S07R02.npz",
+        "split": "val",
+        "signal_sha256": "1b752a726ba394e203bb77c3cf282ccd121a14e2b2d278e11f8cfa83a366f41c"
+      },
+      {
+        "subject": 8,
+        "file": "8-S08R01.npz",
+        "split": "test",
+        "signal_sha256": "05bdefd1e5b354161f3582abee52d786e4de3ac4a9c2991c5501576ebf52e13b"
+      },
+      {
+        "subject": 9,
+        "file": "9-S09R01.npz",
+        "split": "test",
+        "signal_sha256": "5266a92845524bf3c036643219cf4c10ea21e5129248b0ce15babe308fdb07c5"
+      },
+      {
+        "subject": 10,
+        "file": "10-S10R01.npz",
+        "split": "test",
+        "signal_sha256": "7e9062be5b54f6e1b7fd90ea422ee6ee2c6f05b14910e5e712dd7a5dc40a21ce"
+      }
+    ],
+    "cross_split_exact_float32_window_overlap": {
+      "train-val": {
+        "shared_unique_windows": 0,
+        "windows_in_first_split": 0,
+        "windows_in_second_split": 0,
+        "examples": []
+      },
+      "train-test": {
+        "shared_unique_windows": 0,
+        "windows_in_first_split": 0,
+        "windows_in_second_split": 0,
+        "examples": []
+      },
+      "val-test": {
+        "shared_unique_windows": 0,
+        "windows_in_first_split": 0,
+        "windows_in_second_split": 0,
+        "examples": []
+      }
+    },
+    "note": "Audit only; all windows retained under the frozen protocol. SHA-256 hashes of all selected 9-channel window samples, not labels."
+  }
+}

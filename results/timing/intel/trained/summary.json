@@ -1,0 +1,64 @@
+{
+  "processes": 3,
+  "environment": {
+    "python": "3.10.12",
+    "platform": "Linux-6.8.0-94-generic-x86_64-with-glibc2.35",
+    "numpy": "2.2.6",
+    "numba": "0.61.2",
+    "load": [
+      2.66552734375,
+      1.91552734375,
+      1.7080078125
+    ]
+  },
+  "rows": [
+    {
+      "hop": 8,
+      "windows": 40066,
+      "seconds": {
+        "scanPL": 1.896089205518365,
+        "aeonN": 13.736236622557044
+      },
+      "accuracy": {
+        "scanPL": {
+          "accuracy": 0.8952602481121898,
+          "macro_f1": 0.7451051796709184
+        },
+        "aeonN": {
+          "accuracy": 0.8933724379719525,
+          "macro_f1": 0.7414250702923382
+        }
+      },
+      "matches_reference": true,
+      "aeonN/scanPL": 7.244509690039475,
+      "range": [
+        7.212947556638851,
+        7.291665024590368
+      ]
+    },
+    {
+      "hop": 64,
+      "windows": 5015,
+      "seconds": {
+        "scanPL": 1.0710020326077938,
+        "aeonN": 1.669700488448143
+      },
+      "accuracy": {
+        "scanPL": {
+          "accuracy": 0.8960969044414535,
+          "macro_f1": 0.7395010925042834
+        },
+        "aeonN": {
+          "accuracy": 0.892328398384926,
+          "macro_f1": 0.7356554957184772
+        }
+      },
+      "matches_reference": true,
+      "aeonN/scanPL": 1.5590077680642418,
+      "range": [
+        1.5589674162229987,
+        1.5745516508028174
+      ]
+    }
+  ]
+}

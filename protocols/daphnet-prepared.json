@@ -1,0 +1,538 @@
+{
+  "dataset": "daphnet",
+  "protocol": {
+    "W": 256,
+    "channels_zero_based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "label_column": 10,
+    "classes_original": [
+      1,
+      2
+    ],
+    "train": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "val": [
+      7
+    ],
+    "test": [
+      8,
+      9,
+      10
+    ],
+    "subjects": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "source_sha256": "27c6173b3acee75a69284903756b9011a00766c1bbb743c37fc884c5dbc39399",
+  "records": [
+    {
+      "subject": 1,
+      "source_relative": "dataset_fog_release/dataset/S01R01.txt",
+      "samples": 151987,
+      "split": "train",
+      "hop": 128,
+      "windows": 727,
+      "discarded_endpoint_zero": 459,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 688,
+        "2": 39
+      },
+      "prepared": "1-S01R01.npz"
+    },
+    {
+      "subject": 1,
+      "source_relative": "dataset_fog_release/dataset/S01R02.txt",
+      "samples": 52095,
+      "split": "train",
+      "hop": 128,
+      "windows": 226,
+      "discarded_endpoint_zero": 179,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 213,
+        "2": 13
+      },
+      "prepared": "1-S01R02.npz"
+    },
+    {
+      "subject": 2,
+      "source_relative": "dataset_fog_release/dataset/S02R01.txt",
+      "samples": 72561,
+      "split": "train",
+      "hop": 128,
+      "windows": 201,
+      "discarded_endpoint_zero": 364,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 172,
+        "2": 29
+      },
+      "prepared": "2-S02R01.npz"
+    },
+    {
+      "subject": 2,
+      "source_relative": "dataset_fog_release/dataset/S02R02.txt",
+      "samples": 89645,
+      "split": "train",
+      "hop": 128,
+      "windows": 508,
+      "discarded_endpoint_zero": 191,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 445,
+        "2": 63
+      },
+      "prepared": "2-S02R02.npz"
+    },
+    {
+      "subject": 3,
+      "source_relative": "dataset_fog_release/dataset/S03R01.txt",
+      "samples": 144190,
+      "split": "train",
+      "hop": 128,
+      "windows": 712,
+      "discarded_endpoint_zero": 413,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 582,
+        "2": 130
+      },
+      "prepared": "3-S03R01.npz"
+    },
+    {
+      "subject": 3,
+      "source_relative": "dataset_fog_release/dataset/S03R02.txt",
+      "samples": 38774,
+      "split": "train",
+      "hop": 128,
+      "windows": 131,
+      "discarded_endpoint_zero": 170,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 112,
+        "2": 19
+      },
+      "prepared": "3-S03R02.npz"
+    },
+    {
+      "subject": 3,
+      "source_relative": "dataset_fog_release/dataset/S03R03.txt",
+      "samples": 70269,
+      "split": "train",
+      "hop": 128,
+      "windows": 166,
+      "discarded_endpoint_zero": 381,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 166,
+        "2": 0
+      },
+      "prepared": "3-S03R03.npz"
+    },
+    {
+      "subject": 4,
+      "source_relative": "dataset_fog_release/dataset/S04R01.txt",
+      "samples": 195737,
+      "split": "train",
+      "hop": 128,
+      "windows": 1037,
+      "discarded_endpoint_zero": 491,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 1037,
+        "2": 0
+      },
+      "prepared": "4-S04R01.npz"
+    },
+    {
+      "subject": 5,
+      "source_relative": "dataset_fog_release/dataset/S05R01.txt",
+      "samples": 109886,
+      "split": "train",
+      "hop": 128,
+      "windows": 534,
+      "discarded_endpoint_zero": 323,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 399,
+        "2": 135
+      },
+      "prepared": "5-S05R01.npz"
+    },
+    {
+      "subject": 5,
+      "source_relative": "dataset_fog_release/dataset/S05R02.txt",
+      "samples": 100746,
+      "split": "train",
+      "hop": 128,
+      "windows": 517,
+      "discarded_endpoint_zero": 269,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 415,
+        "2": 102
+      },
+      "prepared": "5-S05R02.npz"
+    },
+    {
+      "subject": 6,
+      "source_relative": "dataset_fog_release/dataset/S06R01.txt",
+      "samples": 175707,
+      "split": "train",
+      "hop": 128,
+      "windows": 843,
+      "discarded_endpoint_zero": 528,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 775,
+        "2": 68
+      },
+      "prepared": "6-S06R01.npz"
+    },
+    {
+      "subject": 6,
+      "source_relative": "dataset_fog_release/dataset/S06R02.txt",
+      "samples": 44227,
+      "split": "train",
+      "hop": 128,
+      "windows": 157,
+      "discarded_endpoint_zero": 187,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 157,
+        "2": 0
+      },
+      "prepared": "6-S06R02.npz"
+    },
+    {
+      "subject": 7,
+      "source_relative": "dataset_fog_release/dataset/S07R01.txt",
+      "samples": 119525,
+      "split": "val",
+      "hop": 128,
+      "windows": 581,
+      "discarded_endpoint_zero": 351,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 552,
+        "2": 29
+      },
+      "prepared": "7-S07R01.npz"
+    },
+    {
+      "subject": 7,
+      "source_relative": "dataset_fog_release/dataset/S07R02.txt",
+      "samples": 50335,
+      "split": "val",
+      "hop": 128,
+      "windows": 226,
+      "discarded_endpoint_zero": 166,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 214,
+        "2": 12
+      },
+      "prepared": "7-S07R02.npz"
+    },
+    {
+      "subject": 8,
+      "source_relative": "dataset_fog_release/dataset/S08R01.txt",
+      "samples": 136589,
+      "split": "test",
+      "hop": 64,
+      "windows": 774,
+      "discarded_endpoint_zero": 1357,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 571,
+        "2": 203
+      },
+      "prepared": "8-S08R01.npz"
+    },
+    {
+      "subject": 9,
+      "source_relative": "dataset_fog_release/dataset/S09R01.txt",
+      "samples": 172311,
+      "split": "test",
+      "hop": 64,
+      "windows": 1745,
+      "discarded_endpoint_zero": 944,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 1473,
+        "2": 272
+      },
+      "prepared": "9-S09R01.npz"
+    },
+    {
+      "subject": 10,
+      "source_relative": "dataset_fog_release/dataset/S10R01.txt",
+      "samples": 193303,
+      "split": "test",
+      "hop": 64,
+      "windows": 2232,
+      "discarded_endpoint_zero": 785,
+      "nan_counts_selected_channels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_columns": 11,
+      "class_distribution": {
+        "1": 2232,
+        "2": 0
+      },
+      "prepared": "10-S10R01.npz"
+    }
+  ],
+  "splits": {
+    "train": {
+      "records": 12,
+      "windows": 5759,
+      "subjects": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "class_distribution": {
+        "1": 5161,
+        "2": 598
+      }
+    },
+    "val": {
+      "records": 2,
+      "windows": 807,
+      "subjects": [
+        7
+      ],
+      "class_distribution": {
+        "1": 766,
+        "2": 41
+      }
+    },
+    "test": {
+      "records": 3,
+      "windows": 4751,
+      "subjects": [
+        8,
+        9,
+        10
+      ],
+      "class_distribution": {
+        "1": 4276,
+        "2": 475
+      }
+    }
+  },
+  "preprocessing": "Selected channels only; NaN per-channel linear interpolation within each file, nearest endpoints; all-zero-labelled samples retained as context; discard only zero-labelled window endpoints; no scaling or normalization"
+}

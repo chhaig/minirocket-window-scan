@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-11-05T01:14:18.534643+00:00",
+  "purpose": "Additional external workload after manuscript review; fixed before inspecting WISDM raw values or test results. Local protocol, not an external preregistration.",
+  "dataset": "WISDM Activity Prediction AR v1.1, official provider archive",
+  "source": "https://www.cis.fordham.edu/wisdm/includes/datasets/latest/WISDM_ar_latest.tar.gz",
+  "split": "test subject_id % 6 == 0; validation subject_id % 6 == 1; training remaining IDs; no participant overlap",
+  "W": 256,
+  "train_hop": 128,
+  "test_hops": [
+    8,
+    64
+  ],
+  "channels": 3,
+  "features_per_channel": 3360,
+  "seeds": [
+    11,
+    12,
+    13
+  ],
+  "ridge_alphas": [
+    0.1,
+    10,
+    1000
+  ],
+  "selection": "validation macro-F1; ties choose lower alpha; transform biases fit training only; refit scaler and ridge on training+validation, keep transform fixed",
+  "scaling": "raw acceleration; StandardScaler(with_mean=False) on feature matrix; no per-window input normalization",
+  "parsing": "Split observations on semicolons or line breaks, trim whitespace and trailing empty fields. Require six fields, finite axes, subject 1..36, known activity, integer timestamp >=0. Invalid observation breaks a segment. Segment on subject change or a >1e9 ns positive gap between two positive consecutive timestamps. Retain repeated, backward and zero timestamps in original file order; count all such events, do not sort or resample. Do not segment on activity labels. Drop segments shorter than W. Labels are endpoint labels. These are file-order segments at nominal 20 Hz, not certified uniformly sampled continuous recordings.",
+  "timing": "same M4, one thread, N/E/T/H, full pipeline through predictions. All retained test recordings, warm each path and verify features before timing. Three sequential fresh processes, three rotated repetitions per record; median of sums within process, median across processes. No other experiments concurrently.",
+  "report": "Both hops and every comparator, whether favorable or not. Exact feature and prediction comparisons, per-record times, participant totals, six-class confusion, macro-F1, fit-set majority baseline. This extends one feature family, not an architecture-independent claim.",
+  "frozen_sources": {
+    "native_core.py": "ad593b804a04900e32ba149b362fb82b5ae167f1713ae76e72c69da9dfc18094",
+    "ablation_transform.py": "897323ba0239f7af1c36500ef532e97562f05d1e198f9ce8b4ce56f6936d64b6",
+    "frozen_transform.py": "4abe1cbfd68d27702c375e245591a01981654e08e47c0ab7e0b5f24cd0336387"
+  },
+  "amended_utc": "2026-11-05T01:18:33.802843+00:00",
+  "revision": 2,
+  "amendment_reason": "Format/time-quality pilot, before any test inference: 11733 otherwise usable rows have a trailing comma, one missing terminator joins two physical lines, repeated/nonincreasing timestamps caused 1033401 accepted observations to fall in sub-W segments. v1 fit completed; no test inference or timing had run. Preserve full v1 audit. Same split/model/window/hop choices."
+}

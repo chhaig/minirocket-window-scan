@@ -1,0 +1,23 @@
+{
+  "source": "https://www.cis.fordham.edu/wisdm/includes/datasets/latest/WISDM_ar_latest.tar.gz",
+  "final_url": "https://www.cis.fordham.edu/wisdm/includes/datasets/latest/WISDM_ar_latest.tar.gz",
+  "retrieved_utc": "2026-11-05T01:14:23.098671+00:00",
+  "files": {
+    "WISDM_ar_v1.1_raw_about.txt": {
+      "bytes": 1449,
+      "sha256": "818a8606b3575f3646d761adcec8a007e23952d75cffe07f0af8b604f702a256"
+    },
+    "WISDM_ar_v1.1_raw.txt": {
+      "bytes": 50326282,
+      "sha256": "9aba4b1eaece56ab6d9187b16fc010c176e464750a4ec44c9d833514ecc1fa2e"
+    },
+    "readme.txt": {
+      "bytes": 2074,
+      "sha256": "3f36b96a7b9ded114c8017654ef46f0d63afb003e4474693ee31e12ed1e6ae51"
+    },
+    "WISDM_ar_v1.1.tar.gz": {
+      "bytes": 11404612,
+      "sha256": "e573791269aab4a629721cf04b6031b7cbf8e14261cd2bc86e65887a2bc592d7"
+    }
+  }
+}

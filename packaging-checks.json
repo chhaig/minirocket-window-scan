@@ -1,0 +1,27 @@
+{
+  "python_files_parse": 20,
+  "reference_and_C_sources_byte_identical": true,
+  "fitted_model_byte_identical": true,
+  "historical_full_validation_passes_on_both_hosts": true,
+  "strict_C_build_passed": true,
+  "quantized_synthetic_smoke": {
+    "passed": true,
+    "quantized_input_checks": [
+      {
+        "hop": 4,
+        "features": 37968,
+        "count_mismatches": 0
+      },
+      {
+        "hop": 16,
+        "features": 9744,
+        "count_mismatches": 0
+      }
+    ]
+  },
+  "new_full_retraining": false,
+  "new_full_HAPT_validation": false,
+  "new_timing": false,
+  "packaging_environment_numba_available": false,
+  "checks_performed": "Static driver path/dependency review, Python AST parsing, source/model integrity, strict C compile, quantized-input C-vs-NumPy integer-count check, archived validation review, per-run result table reconstruction."
+}

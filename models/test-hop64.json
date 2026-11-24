@@ -1,0 +1,22 @@
+{
+ "hop": 64,
+ "scored_windows": 3715,
+ "N": {
+  "accuracy": 0.892328398384926,
+  "macro_f1": 0.7366307667152109
+ },
+ "PL_scan": {
+  "accuracy": 0.8960969044414535,
+  "macro_f1": 0.7395010925042834
+ },
+ "alpha": {
+  "N": 1000.0,
+  "P": 1000.0
+ },
+ "seconds": 19.885848999023438,
+ "scan_vs_numpy_P": {
+  "feature_values": 37803840,
+  "count_mismatches": 0,
+  "prediction_mismatches": 0
+ }
+}
